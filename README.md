@@ -32,7 +32,7 @@ README.md
 ### 🐍 From GitHub
 
 ```bash
-pip install git+https://<TOKEN>@github.com/vaisakhkrishna/service.git
+pip install git+https://github.com/techvantageai/zentis-servicepackage.git@dev#egg=servicepackage
 ```
 
 ## 🛠 Usage
