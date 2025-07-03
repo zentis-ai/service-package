@@ -1,10 +1,10 @@
-# 📦 servicepackage
+#servicepackage
 
 `servicepackage` is a reusable framework that interact with MongoDB and RabbitMQ. It provides the core logic for consuming messages, handling workflows, and dispatching output to the next nodes based on configurations stored in MongoDB.
 
 ---
 
-## 🚀 Features
+##Features
 
 - Plug-and-play message consumption from RabbitMQ
 - Dynamic node execution based on MongoDB `runs` collection
@@ -14,7 +14,7 @@
 
 ---
 
-## 📁 Folder Structure (example)
+##Folder Structure (example)
 
 ```
 servicepackage/
@@ -27,15 +27,15 @@ README.md
 
 ---
 
-## ⚙️ Installation
+##Installation
 
-### 🐍 From GitHub
+###From GitHub
 
 ```bash
 pip install git+https://github.com/techvantageai/zentis-servicepackage.git@dev#egg=servicepackage
 ```
 
-## 🛠 Usage
+##Usage
 
 ### 1. Create your own `service_function.py` file
 
@@ -83,13 +83,13 @@ svc.start()
 
 ---
 
-## 📌 Requirements
+##Requirements
 
 - Python 3.8+
 - RabbitMQ
 - MongoDB
 
-## 📦 Dependencies
+##Dependencies
 
 Automatically installed:
 
@@ -99,7 +99,7 @@ Automatically installed:
 
 ---
 
-## 🔐 Environment Variables
+##Environment Variables
 
 Create a `.env` file or export these before running:
 
