@@ -7,7 +7,8 @@ setup(
     install_requires=[
         'pymongo==4.13.1',
         'pika==1.3.2',
-        'python-dotenv==1.1.0'
+        'python-dotenv==1.1.0',
+        'protobuf==3.20.3'
     ],
     python_requires='>=3.7',
     author='techvantage.ai',
